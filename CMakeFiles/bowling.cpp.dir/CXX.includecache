@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/karim/Bureau/Bowling/src/bowling.cpp
+bowling.h
+/home/karim/Bureau/Bowling/src/bowling.h
+regex
+-
+
+/home/karim/Bureau/Bowling/src/main.cpp
+
+include/bowling.h
+string
+-
+iostream
+-
+vector
+-
+tuple
+-
+

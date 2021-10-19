@@ -7,13 +7,13 @@ using namespace std;
 
 tuple<bool, vector<tuple<int, int>>> validLine(string lineData)
 {
-    if (!((lineData.size() <= 21) && (lineData >= 11)))
+    if (!((lineData.size() <= 21) && (lineData.size() >= 11)))
     {
         cout<< "input not valid in length, valid length 11<= len <=21"<<endl;
         return EmptyFalseTuple;
     }
     //X, /, -, 1->9
-    regex exp_rex("(X|--|-/|-[1-9]|[1-9]-|[1-9][1-9]|[1-9]/){10}(X|-|[1-9])*")
+    regex exp_rex("(X|--|-/|-[1-9]|[1-9]-|[1-9][1-9]|[1-9]/){10}(X|-|[1-9])*");
 
     if (!(regex_match(lineData, exp_rex)))
     {
@@ -44,7 +44,6 @@ tuple<bool, vector<tuple<int, int>>> validLine(string lineData)
                     rollIndex++;
                     isSeconfThrow = false;
                     continue;
-
                 }
                 case '-':
                 {
@@ -67,14 +66,14 @@ tuple<bool, vector<tuple<int, int>>> validLine(string lineData)
                         return EmptyFalseTuple;
                     }
 
-                    get<1>(rolls(rollIndex)) = 10 - get<0>(rolls.at(rollIndex));
+                    get<1>(rolls.at(rollIndex)) = 10 - get<0>(rolls.at(rollIndex));
                     rollIndex++;
                     isSeconfThrow = false;
                     continue;
                 }
                 default:
                 {
-                    
+
                 }
             }
                 
