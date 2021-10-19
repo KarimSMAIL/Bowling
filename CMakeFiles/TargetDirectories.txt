@@ -1,3 +1,0 @@
-/home/karim/Bureau/Bowling/CMakeFiles/rebuild_cache.dir
-/home/karim/Bureau/Bowling/CMakeFiles/bowling.cpp.dir
-/home/karim/Bureau/Bowling/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/bowling.cpp.dir/src/main.cpp.o CMakeFiles/bowling.cpp.dir/src/bowling.cpp.o  -o bowling.cpp 
