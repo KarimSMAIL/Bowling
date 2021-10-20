@@ -12,6 +12,6 @@ using namespace std;
 tuple<bool, vector<tuple<int, int>>> validLine(string lineData);
 
 //calculate the finale score of the game based on the rolls score
-int calculateScore(string lineData);
+int calculateScore(vector<tuple<int, int>> rolls);
 
 #endif

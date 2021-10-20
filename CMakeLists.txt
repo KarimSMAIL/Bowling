@@ -15,4 +15,4 @@ file(GLOB all_MainSRCS
     ${PROJECT_SOURCE_DIR}/src/bowling.cpp
 )
 
-add_executable(bowling.cpp ${all_MainSRCS})
+add_executable(bowling ${all_MainSRCS})
