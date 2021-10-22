@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/bowling_test.dir/src/bowling.cpp.o CMakeFiles/bowling_test.dir/test/bowling_test.cpp.o  -o bowling_test include/googletest/libgtest.a -pthread 

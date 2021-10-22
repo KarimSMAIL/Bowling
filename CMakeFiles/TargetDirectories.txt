@@ -1,8 +1,0 @@
-/home/karim/Bureau/Bowling/CMakeFiles/rebuild_cache.dir
-/home/karim/Bureau/Bowling/CMakeFiles/edit_cache.dir
-/home/karim/Bureau/Bowling/CMakeFiles/bowling.dir
-/home/karim/Bureau/Bowling/CMakeFiles/bowling_test.dir
-/home/karim/Bureau/Bowling/include/googletest/CMakeFiles/rebuild_cache.dir
-/home/karim/Bureau/Bowling/include/googletest/CMakeFiles/gtest.dir
-/home/karim/Bureau/Bowling/include/googletest/CMakeFiles/edit_cache.dir
-/home/karim/Bureau/Bowling/include/googletest/CMakeFiles/gtest_main.dir
